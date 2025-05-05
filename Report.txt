@@ -1,44 +1,54 @@
-Name:
+Name: Nomaan Ahmed 
 
-Number of elements:
+Number of elements:10000
 
 Bubble Sort
-Sorted:
-Reversed:
-Random:
+Sorted:25 seconds
+Reversed:50 seconds
+Random:40 seconds
 
 Bubble Sort Early Exit
-Sorted:
-Reversed:
-Random:
+Sorted:0.001 seconds
+Reversed:50 seconds
+Random:40 seconds
 
 Selection Sort
-Sorted:
-Reversed:
-Random:
+Sorted:15 seconds
+Reversed:15 seconds 
+Random:15 seconds
 
 Insertion Sort
-Sorted:
-Reversed:
-Random:
+Sorted:0.001 seconds
+Reversed:25 seconds 
+Random:12 seconds 
 
 Merge Sort
-Sorted:
-Reversed:
-Random:
+Sorted:0.05 seconds 
+Reversed:0.05 seconds 
+Random:0.05 seconds 
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
 
+The worst case scenario observed was the Bubble Sort and Bubble Sort Early Exit on reversed lists, taking approximately 50 seconds. 
+This represents the O(n²) worst-case performance where every element needs to be moved the maximum possible distance. Reversed 
+lists are particularly challenging for bubble sort because each element must "bubble" all the way from the beginning to the end of the list.
 
 2) The first 3 sorts have the same runtime of O(n^2). Why were the times different? Why would one be more efficient than the others?
 
+Selection Sort has consistent performance across all input types because it always performs the same number of comparisons 
+regardless of the initial order. Insertion Sort is much faster on already sorted or nearly sorted data, explaining its excellent 
+performance on the sorted list.
 
 3) Why was merge sort so much more efficient?
 
+It has O(n log n) time complexity versus O(n²) for the other algorithms. For n=10,000, this means approximately 100,000 operations instead of 100,000,000 operations.
 
 4) The built-in sorting technique for most programming languages is known as TimSort.
+
 This is a merge sort until the arrays have fewer than 10 elements, then it does an insertion sort. Why would this be useful?
 
 
 5) What issues can you see with a recursive sorting technique like merge sort?
+
+Stack overflow, Memory usage, Cache inefficiency, and Overhead of function calls.
