@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=19423955)
 # Lab 12 - Searching & Sorting
 
 In this lab we will be investigating the relative speed of the different sorting algorithms we had discussed in our lecture. You'll need to run each of them and record the time in the text document and respond to the questions. Finally, you will upload the responses to your GitHub repo.
